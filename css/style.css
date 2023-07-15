@@ -104,7 +104,7 @@ img{
 
 /* project section */
 #projects {
-    padding: 4rem;
+    padding: 3rem;
 }
 
 #projects h2 {
@@ -151,8 +151,7 @@ img{
     border-top: 1px solid var(--aqua);
     border-radius: 25px;
     padding: 1rem;
-    cursor: pointer;
-    transition: 0.2s;
+    transition: 3ms;
 }
 
 @media(min-width: 550px){
