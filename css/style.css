@@ -142,12 +142,17 @@ img{
     font-size: 1rem;
 }
 
+#projects img:hover{
+    opacity: 0.8;
+}
 #projects img{
     margin: 2rem 0 4rem 0;
     border-left: 1px solid var(--aqua);
     border-top: 1px solid var(--aqua);
     border-radius: 25px;
     padding: 1rem;
+    cursor: pointer;
+    transition: 0.2s;
 }
 
 @media(min-width: 550px){
@@ -170,6 +175,7 @@ img{
     #projects ul{
         justify-content: flex-end;
     }
+
     /*  */
     
     #projects .reverse img{
@@ -189,6 +195,7 @@ img{
         justify-content: flex-start;
     }
 }
+
 /* contact section */
 
 #contact {
